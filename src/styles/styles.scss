@@ -1,6 +1,6 @@
-@import "mixins";
-@import "variables";
-@import "vendors";
+@import 'mixins';
+@import 'variables';
+@import 'vendors';
 
 *,
 *::before,
@@ -48,4 +48,4 @@ img {
   height: auto;
 }
 
-@import '_blocks/blocks';
+@import '_blocks/_blocks';

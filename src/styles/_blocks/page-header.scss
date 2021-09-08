@@ -1,1 +1,18 @@
-//
+.page-header {
+  display: flex;
+  flex-direction: column;
+
+  &__logo {
+    height: 85px;
+    background: rgba(255, 255, 255, 0.5);
+
+    @media (min-width: $tablet-width) {
+      order: 2;
+      height: 400px;
+    }
+
+    @media (min-width: $desktop-width) {
+      height: 648px;
+    }
+  }
+}
