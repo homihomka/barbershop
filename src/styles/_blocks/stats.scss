@@ -1,0 +1,39 @@
+.stats {
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 640px;
+    margin-top: -185px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    width: 960px;
+    margin-top: -160px;
+  }
+
+  &__header {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+
+    @media (min-width: $desktop-width) {
+      width: 240px;
+    }
+  }
+
+  &__list {
+    width: 100%;
+
+    @media (min-width: $tablet-width) {
+      display: flex;
+    }
+
+    @media (min-width: $desktop-width) {
+      display: flex;
+      width: 640px;
+    }
+  }
+}

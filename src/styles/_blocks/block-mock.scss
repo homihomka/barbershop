@@ -1,0 +1,11 @@
+.block-mock {
+  height: 390px;
+
+  @media (min-width: $tablet-width) {
+    height: 469px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 720px;
+  }
+}
